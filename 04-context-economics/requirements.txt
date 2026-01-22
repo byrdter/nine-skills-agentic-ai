@@ -1,0 +1,12 @@
+# Core dependencies for context economics examples
+# Note: These examples use mostly standard library for portability
+
+# For production implementations
+pydantic>=2.0.0           # Data validation
+
+# For token counting (optional)
+# tiktoken>=0.5.0         # OpenAI tokenizer (for accurate token counts)
+
+# For cost analytics (optional)
+# pandas>=2.0.0           # Data analysis
+# plotly>=5.0.0           # Visualization

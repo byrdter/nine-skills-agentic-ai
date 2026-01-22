@@ -1,0 +1,12 @@
+# Core dependencies for data governance examples
+
+# For production data validation
+# great_expectations>=0.18.0  # Data quality validation
+# pydantic>=2.0.0             # Schema validation
+
+# For lineage tracking
+# apache-atlas-client>=0.0.1  # Apache Atlas (if available)
+# openlineage-python>=1.0.0   # OpenLineage standard
+
+# Utilities
+pydantic>=2.0.0

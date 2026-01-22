@@ -1,0 +1,19 @@
+# Core dependencies for observability examples
+# Note: These examples use mostly standard library for portability
+
+# For production OpenTelemetry implementation
+# opentelemetry-api>=1.20.0
+# opentelemetry-sdk>=1.20.0
+# opentelemetry-exporter-otlp>=1.20.0
+# opentelemetry-instrumentation>=0.41b0
+
+# For metrics and dashboards
+# prometheus-client>=0.17.0  # Prometheus metrics
+# statsd>=4.0.0              # StatsD metrics
+
+# For structured logging
+# structlog>=23.0.0          # Structured logging
+# python-json-logger>=2.0.0  # JSON log formatting
+
+# Utilities
+pydantic>=2.0.0           # Data validation

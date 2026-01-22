@@ -1,0 +1,20 @@
+# Core dependencies for hybrid memory examples
+# Note: These examples use mostly standard library for portability
+
+# For production vector stores
+# weaviate-client>=4.0.0    # Weaviate vector database
+# pinecone-client>=3.0.0    # Pinecone vector database
+# qdrant-client>=1.7.0      # Qdrant vector database
+# chromadb>=0.4.0           # Chroma local vector store
+
+# For production graph databases
+# neo4j>=5.0.0              # Neo4j graph database
+# memgraph>=2.0.0           # MemGraph high-performance graph
+
+# For embeddings
+# sentence-transformers>=2.2.0  # Local embedding models
+# openai>=1.0.0             # OpenAI embeddings API
+
+# Utilities
+pydantic>=2.0.0            # Data validation
+numpy>=1.24.0              # Numerical operations (for similarity calculations)

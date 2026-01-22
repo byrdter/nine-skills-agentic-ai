@@ -1,0 +1,16 @@
+# Core dependencies for interoperability examples
+# Note: These examples use mostly standard library for portability
+
+# For production A2A implementations
+httpx>=0.25.0           # Modern HTTP client for async operations
+pydantic>=2.0.0         # Data validation and serialization
+
+# For production MCP implementations
+jsonschema>=4.0.0       # JSON Schema validation
+
+# For production SOAP adapters (if integrating with real legacy systems)
+# zeep>=4.2.0           # SOAP client library (uncomment if needed)
+
+# For production message queue integration
+# kafka-python>=2.0.0   # Kafka client (uncomment if needed)
+# pika>=1.3.0           # RabbitMQ client (uncomment if needed)

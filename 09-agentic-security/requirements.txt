@@ -1,0 +1,13 @@
+# Core dependencies for agentic security examples
+
+# For production guardrail implementations
+# nemo-guardrails>=0.8.0       # NVIDIA NeMo Guardrails
+# guardrails-ai>=0.4.0         # Guardrails AI
+# lakera-chainguard>=0.1.0     # Lakera prompt shield
+
+# For adversarial testing
+# garak>=0.9.0                 # LLM vulnerability scanner
+# pyrit>=0.1.0                 # Microsoft red teaming toolkit
+
+# Utilities
+pydantic>=2.0.0

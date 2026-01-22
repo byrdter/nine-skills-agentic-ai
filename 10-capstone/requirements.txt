@@ -1,0 +1,7 @@
+# Core dependencies for capstone examples
+# This module integrates all skills, so it references their dependencies
+
+# Utilities
+pydantic>=2.0.0
+
+# See individual skill folders for specific dependencies
